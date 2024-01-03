@@ -1,0 +1,72 @@
+@media only screen and (max-width: 600px) {
+  /* Styles for small screens */
+  h2 {
+      font-size: medium;
+  }
+
+  button {
+      font-size: medium;
+  }
+
+  form {
+      font-size: medium;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  /* Styles for medium screens */
+  h2 {
+      font-size: large;
+  }
+
+  button {
+      font-size: large;
+  }
+
+  form {
+      font-size: large;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  /* Styles for large screens */
+  h2 {
+      font-size: x-large;
+  }
+
+  button {
+      font-size: x-large;
+  }
+
+  form {
+      font-size: x-large;
+  }
+}
+
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+div {
+  margin: 0;
+  background-color: yellow;
+  color: rgb(229, 229, 99);
+}
+
+h2 {
+  color: white;
+  text-align: center;
+}
+
+button {
+  text-align: center;
+  background-color: yellow;
+  color: black;
+}
+
+form {
+  text-align: center;
+}
